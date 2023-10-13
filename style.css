@@ -1,0 +1,17 @@
+#editor {
+    height: 600px;
+    border: 1px solid #ccc; 
+    padding: 10px; /* Add padding for spacing around the content */
+    overflow-y: auto; /* Add a vertical scrollbar whe */
+    font-weight: bold; 
+}
+
+#header{
+    text-align: center;
+    font-family: 'Josefin Sans',sans-serif;
+}
+.btn{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+}
