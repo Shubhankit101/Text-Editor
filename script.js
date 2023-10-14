@@ -6,7 +6,7 @@ const saveButton = document.getElementById('save-button');
 const resetButton = document.getElementById('clear-button');
 const themeButton = document.getElementById('theme-change');
 
-let lightTheme = true;
+let lightTheme = false;
 
 themeButton.addEventListener('click', function(){
     if(lightTheme){
