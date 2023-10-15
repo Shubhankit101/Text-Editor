@@ -1,4 +1,4 @@
-// Get references to the editor and save button
+// Get references to the editor and required button
 const main = document.querySelector('.main');
 const content = document.querySelector('.content');
 const editor = document.getElementById('editor');
