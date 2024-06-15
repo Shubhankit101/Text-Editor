@@ -8,10 +8,10 @@ const themeButton = document.getElementById('theme-change');
 
 let lightTheme = false;
 
+content.classList.remove('lightContent');
 themeButton.addEventListener('click', function(){
     if(lightTheme){
         main.classList.add('dark');
-        content.classList.remove('lightContent');
         content.classList.add('darkContent');
         lightTheme = false;
     }
